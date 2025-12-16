@@ -1,0 +1,25 @@
+git config --global user.name "ُEng-Ahmed-Emad"
+git config --global user.email "ahmedemadeldeen77@gmail.com"
+git config --global core.editor nano
+
+
+git clone https://github.com/Marwan-Sherif/Open-Source-Project
+git status
+git branch
+git pull
+git checkout -b "AhmedEmad"
+git branch
+nano AhmedEmad.txt
+git add .
+git commit -m "1st Commit By 3omda"
+git push -u origin AhmedEmad
+
+cd AhmedEmad/
+nano AhmedEmad2.txt
+git add AhmedEmad2.txt
+git commit -m "After Merging 2 branches And Creating 2nd Text File 3rd 3omda Commit"
+
+
+git push -u origin AhmedEmad
+git pull
+
